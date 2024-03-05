@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { HiMail, HiPhone } from 'react-icons/hi'
 
 const Contact = () => {
     return (
@@ -9,12 +11,8 @@ const Contact = () => {
                 {/* <p className='mt-5'>Connect effortlessly with this Google Sheet integrated form.</p> */}
             </div>
 
-            {/* form */}
             <div className='md:w-2/3 mx-auto mb-20'>
-                <form
-                // method="POST"
-                // action="https://script.google.com/macros/s/AKfycbx_0yNlURVAXGC2_8IDK7Pne83XFtLDzhZd3kB_hqQs_FqQ3ObJuz1J4LEOXlipnCYC/exec"
-                >
+                {/* <form>
                     <div className='flex flex-col sm:flex-row gap-8 items-center mb-8'>
                         <div className='sm:w-1/2 w-full'>
                             <label htmlFor="fName" className='text-base text-headingColor w-full'>First Name</label>
@@ -46,7 +44,25 @@ const Contact = () => {
                         <input type="submit" value="Submit" className='btn-primary bg-primary py-3 px-8 cursor-pointer w-full' />
                     </div>
 
-                </form>
+                </form> */}
+                <div className='md:flex items-center justify-center gap-4'>
+                    <a href="https://www.linkedin.com/in/jagatheeswaran-s-479931230/" target='_blank' className='flex justify-center mb-3'>
+                        <FaLinkedin className='cursor-pointer hover:-translate-y-2 transition-all duration-300 text-xl hover:text-primary' />
+                        LinkedIn
+                    </a>
+                    <a href="mailto:jagathees320@gmail.com" target='_blank' className='flex justify-center mb-3'>
+                        <HiMail className='cursor-pointer hover:-translate-y-2 transition-all duration-300 text-xl hover:text-primary' />
+                        jagathees320@gmail.com
+                    </a>
+                    <a href="https://github.com/Jagatheeswaran100" target='_blank' className='flex justify-center mb-3'>
+                        <FaGithub className='cursor-pointer hover:-translate-y-2 transition-all duration-300 text-xl hover:text-primary' />
+                        GitHub
+                    </a>
+                    <a href="/" target='_blank' className='flex justify-center mb-3'>
+                        <HiPhone className='cursor-pointer hover:-translate-y-2 transition-all duration-300 text-xl hover:text-primary' />
+                        +91 8098040742
+                    </a>
+                </div>
             </div>
         </div>
     )

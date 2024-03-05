@@ -22,7 +22,7 @@ const MyWorks = () => {
                         <div className='p-8'>
                             <h3 className='text-2xl font-semibold mb-2 text-headingColor'>{project.name}</h3>
                             <p className='text-body mb-4'>{project.description}</p>
-                            <a href={project.link} target='_blank' className='underline underline-offset-8 hover:text-primary'>View In Live <img src="/src/assets/arrow.png" alt="" className='w-3 inline-block ml-3' /></a>
+                            <a href={project.link} target='_blank' className='underline underline-offset-8 hover:text-primary'>View In Live <img src="./src/assets/arrow.png" alt="" className='w-3 inline-block ml-3' /></a>
                         </div>
                     </div>)
                 }

@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../assets/logo-img.svg';
 import jwLogo from '../assets/jw-logo.png';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { HiOutlineMail } from "react-icons/hi";
+import { HiMail } from "react-icons/hi";
 
 const Footer = () => {
     return (
@@ -22,11 +22,11 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/jagatheeswaran-s-479931230/" target='_blank'>
                         <FaLinkedin className='cursor-pointer hover:-translate-y-2 transition-all duration-300 text-xl hover:text-primary' />
                     </a>
+                    <a href="mailto:jagathees320@gmail.com" target='_blank'>
+                        <HiMail className='cursor-pointer hover:-translate-y-2 transition-all duration-300 text-xl hover:text-primary' />
+                    </a>
                     <a href="https://github.com/Jagatheeswaran100" target='_blank'>
                         <FaGithub className='cursor-pointer hover:-translate-y-2 transition-all duration-300 text-xl hover:text-primary' />
-                    </a>
-                    <a href="mailto:jagathees320@gmail.com" target='_blank'>
-                        <HiOutlineMail className='cursor-pointer hover:-translate-y-2 transition-all duration-300 text-xl hover:text-primary' />
                     </a>
                 </div>
 

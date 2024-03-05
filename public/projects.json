@@ -3,21 +3,21 @@
         "id": 1,
         "name": "Social Media",
         "description": "Developed Social Media User Interface in React js and Material UI",
-        "image": "src/assets/social-media.png",
+        "image": "./src/assets/social-media.png",
         "link": "https://jagatheeswaran100.github.io/social-media/"
     },
     {
         "id": 2,
         "name": "Grocery Store",
         "description": "Built a E-Commerce website for Grocery store",
-        "image": "src/assets/grocery-store.png",
+        "image": "./src/assets/grocery-store.png",
         "link": "https://jagatheeswaran100.github.io/grocery-store/"
     },
     {
         "id": 3,
         "name": "Weather Data Viewer",
         "description": "Created Weather Data Viewer by fetching data from OpenWeatherMap",
-        "image": "src/assets/weather.png",
+        "image": "./src/assets/weather.png",
         "link": "https://jagatheeswaran100.github.io/weather-data-viewer/"
     }
 ]

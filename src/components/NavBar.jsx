@@ -36,19 +36,19 @@ const NavBar = () => {
 
                     {/* menu items for large devices*/}
                     <div className='lg:flex items-center gap-3 hidden text-body text-lg'>
-                        <Link to='home' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-primary hover:text-gray-400'>
+                        <Link to='home' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-primary cursor-pointer hover:text-gray-400'>
                             Home
                         </Link>
-                        <Link to='about' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-primary hover:text-gray-400'>
+                        <Link to='about' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-primary cursor-pointer hover:text-gray-400'>
                             About
                         </Link>
-                        <Link to='skills' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-primary hover:text-gray-400'>
+                        <Link to='skills' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-primary cursor-pointer hover:text-gray-400'>
                             Skills
                         </Link>
-                        <Link to='works' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-primary hover:text-gray-400'>
+                        <Link to='works' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-primary cursor-pointer hover:text-gray-400'>
                             Works
                         </Link>
-                        <Link to='contact' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-primary hover:text-gray-400'>
+                        <Link to='contact' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-primary cursor-pointer hover:text-gray-400'>
                             Contact
                         </Link>
                     </div>

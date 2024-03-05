@@ -2,31 +2,31 @@ import React from 'react'
 
 const technicalSkills = [
     {
-        id: 1, name: "HTML", description: "HyperText Markup language for structuring web pages.", image: "src/assets/html-icon.svg"
+        id: 1, name: "HTML", description: "HyperText Markup language for structuring web pages.", image: "./src/assets/html-icon.svg"
     },
     {
-        id: 2, name: "CSS", description: "Cascading Style sheet language used for styling web pages.", image: "src/assets/css-icon.svg"
+        id: 2, name: "CSS", description: "Cascading Style sheet language used for styling web pages.", image: "./src/assets/css-icon.svg"
     },
     {
-        id: 3, name: "Bootstrap", description: "Frontend framework for building responsive and mobile-first websites.", image: "src/assets/bootstrap-icon.svg"
+        id: 3, name: "Bootstrap", description: "Frontend framework for building responsive and mobile-first websites.", image: "./src/assets/bootstrap-icon.svg"
     },
     // {
-    //     id: 4, name: "Tailwind CSS", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", image: "src/assets/tailwindcss-icon.svg"
+    //     id: 4, name: "Tailwind CSS", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", image: "./src/assets/tailwindcss-icon.svg"
     // },
     {
-        id: 5, name: "Sass", description: "Preprocessor scripting language that extends CSS and adds features like variables and nesting.", image: "src/assets/sass-icon.svg"
+        id: 5, name: "Sass", description: "Preprocessor scripting language that extends CSS and adds features like variables and nesting.", image: "./src/assets/sass-icon.svg"
     },
     {
-        id: 6, name: "JavaScript", description: "Programming language used to create interactive effects within web browsers.", image: "src/assets/javascript-icon.svg"
+        id: 6, name: "JavaScript", description: "Programming language used to create interactive effects within web browsers.", image: "./src/assets/javascript-icon.svg"
     },
     {
-        id: 7, name: "jQuery", description: "JavaScript library simplifying HTML document traversing, event handling, and animation.", image: "src/assets/jquery-icon.svg"
+        id: 7, name: "jQuery", description: "JavaScript library simplifying HTML document traversing, event handling, and animation.", image: "./src/assets/jquery-icon.svg"
     },
     {
-        id: 8, name: "React js", description: "JavaScript library for building user interfaces, known for its component-based architecture.", image: "src/assets/reactjs-icon.svg"
+        id: 8, name: "React js", description: "JavaScript library for building user interfaces, known for its component-based architecture.", image: "./src/assets/reactjs-icon.svg"
     },
     {
-        id: 9, name: "Material UI", description: "React components implementing Google's Material Design for creating consistent and visually appealing UIs.", image: "src/assets/material-ui-icon.png"
+        id: 9, name: "Material UI", description: "React components implementing Google's Material Design for creating consistent and visually appealing UIs.", image: "./src/assets/material-ui-icon.png"
     },
     // {
     //     id: 10, name: "APIs", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", image: ""
