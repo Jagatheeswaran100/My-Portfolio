@@ -4,9 +4,9 @@ import profilepic from '../assets/profile-pic.png';
 const About = () => {
     return (
         <div className='lg:mx-12 mx-4' id='about'>
-            <div className='flex flex-col sm:flex-row md:gap-20 gap-10 items-center justify-between py-10'>
+            <div className='flex flex-col sm:flex-row md:gap-20 gap-10 items-center justify-between py-10 about-bg'>
                 <div className='sm:w-5/12'>
-                    <img src={profilepic} alt="" className='w-full sm:w-10/12' />
+                    <img src={profilepic} alt="" className='w-full sm:w-11/12' />
                 </div>
 
                 <div className='sm:w-1/2'>

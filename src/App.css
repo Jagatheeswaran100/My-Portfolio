@@ -17,5 +17,18 @@ header {
 }
 
 .skillcard {
-  border-bottom: 3px outset #5E3BEE;
+  border-bottom: 3px outset lightgray;
+  border-left: 3px outset lightgray;
 }
+
+.home-bg {
+  background-image: url(../src/assets/home-bg-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* .about-bg {
+  background-image: url(../src/assets/about-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
