@@ -17,8 +17,8 @@ header {
 }
 
 .skillcard {
-  border-bottom: 3px outset lightgray;
-  border-left: 3px outset lightgray;
+  border-bottom: 3px outset white;
+  border-left: 3px outset white;
 }
 
 .home-bg {

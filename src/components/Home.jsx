@@ -1,6 +1,6 @@
 import React from 'react';
 import codingboy from '../assets/coding-bro-2.png';
-import resume from '../assets/jagatheeswaran-resume.pdf';
+import resume from '../assets/jagatheeswaran_resume.pdf';
 
 // import { HiDownload } from "react-icons/hi";
 
