@@ -1,6 +1,14 @@
 [
     {
         "id": 1,
+        "name": "Admin Dashboard",
+        "tools": "Html & Css & Bootstrap & Chart.js",
+        "description": "Built a User Interface of Admin Dashboard",
+        "image": "./src/assets/dashboard.png",
+        "link": "https://jagatheeswaran100.github.io/Dashboard-UI/"
+    },
+    {
+        "id": 2,
         "name": "Social Media",
         "tools": "React & Material UI",
         "description": "Developed Social Media User Interface in React js and Material UI",
@@ -8,15 +16,23 @@
         "link": "https://jagatheeswaran100.github.io/social-media/"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Grocery Store",
         "tools": "Html & Css & Swiper.js",
         "description": "Built a E-Commerce website for Grocery store",
-        "image": "./src/assets/grocery-store.png",
+        "image": "./src/assets/grocery.png",
         "link": "https://jagatheeswaran100.github.io/grocery-store/"
     },
     {
-        "id": 3,
+        "id": 4,
+        "name": "Tourism Landing Page",
+        "tools": "Html & Css",
+        "description": "Created a Landing page for Tourism",
+        "image": "./src/assets/travelholic.png",
+        "link": "https://jagatheeswaran100.github.io/Travelholic/"
+    },
+    {
+        "id": 5,
         "name": "Weather Data Viewer",
         "tools": "React & API",
         "description": "Created Weather Data Viewer by fetching data from OpenWeatherMap",
