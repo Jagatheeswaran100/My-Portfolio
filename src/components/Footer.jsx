@@ -6,7 +6,10 @@ import { HiMail } from "react-icons/hi";
 
 const Footer = () => {
     return (
-        <div className='bg-bgShade py-28 md:px-12 px-4 home-bg'>
+        <div className='bg-bgShade py-28 md:px-12 px-4 footer-bg'>
+
+            {/* <svg className='footer-wave' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,96L80,112C160,128,320,160,480,144C640,128,800,64,960,37.3C1120,11,1280,21,1360,26.7L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg> */}
+
             <div className='flex flex-col sm:flex-row sm:items-center justify-between gap-8 mb-20'>
                 <a href="" className='flex-shrink-0'><img src={jwLogo} alt="" className='h-10' /></a>
 
@@ -25,9 +28,9 @@ const Footer = () => {
                     <a href="mailto:jagathees320@gmail.com" target='_blank'>
                         <HiMail className='cursor-pointer hover:-translate-y-2 transition-all duration-300 text-xl hover:text-primary' />
                     </a>
-                    <a href="https://github.com/Jagatheeswaran100" target='_blank'>
+                    {/* <a href="https://github.com/Jagatheeswaran100" target='_blank'>
                         <FaGithub className='cursor-pointer hover:-translate-y-2 transition-all duration-300 text-xl hover:text-primary' />
-                    </a>
+                    </a> */}
                 </div>
 
             </div>
@@ -42,6 +45,13 @@ const Footer = () => {
                     <a href="/" className='hover:text-gray-400'>Cookies Settings</a>
                 </div> */}
             </div>
+
+            {/* <div class="custom-shape-divider-top-1712678168">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div> */}
+
         </div>
     )
 }

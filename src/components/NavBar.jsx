@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 // import logo from '../assets/Logo.png';
-import logo from '../assets/logo-img.svg';
 import jwLogo from '../assets/jw-logo.png';
 import { HiMenuAlt3 } from "react-icons/hi";
 import { Link } from 'react-scroll';
@@ -25,7 +24,7 @@ const NavBar = () => {
     }, [])
 
     return (
-        <header className='w-full fixed top-0 left-0 right-0'>
+        <header className='w-full fixed top-0 left-0 right-0 stickyNavBar'>
             <nav className={`py-4 md:px-12 px-4 bg-white ${isSticky ? "sticky top-0 right-0 left-0 bg-white" : ""}`}>
                 <div className='flex items-center justify-between'>
 
@@ -42,6 +41,9 @@ const NavBar = () => {
                         <Link to='about' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-primary cursor-pointer hover:text-gray-400'>
                             About
                         </Link>
+                        <Link to='journey' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-primary cursor-pointer hover:text-gray-400'>
+                            Journey
+                        </Link>
                         <Link to='skills' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-primary cursor-pointer hover:text-gray-400'>
                             Skills
                         </Link>
@@ -53,9 +55,9 @@ const NavBar = () => {
                         </Link>
                     </div>
 
-                    <div className='lg:block hidden'>
+                    {/* <div className='lg:block hidden'>
                         <button className='outlineBtn'>Contact Me</button>
-                    </div>
+                    </div> */}
 
                     {/* menu btn for small devices */}
                     <button onClick={toggleMenu} className='lg:hidden text-body text-3xl'>
@@ -68,6 +70,7 @@ const NavBar = () => {
                     isMenuOpen && <div className='mt-4 p-4 bg-body rounded-lg text-white'>
                         <a href="/home" className='block py-2 px-4 cursor-primary hover:text-gray-400'>Home</a>
                         <a href="/about" className='block py-2 px-4 cursor-primary hover:text-gray-400'>About</a>
+                        <a href="/journey" className='block py-2 px-4 cursor-primary hover:text-gray-400'>Journey</a>
                         <a href="/skills" className='block py-2 px-4 cursor-primary hover:text-gray-400'>Skills</a>
                         <a href="/works" className='block py-2 px-4 cursor-primary hover:text-gray-400'>Works</a>
                         <a href="/contact" className='block py-2 px-4 cursor-primary hover:text-gray-400'>Contact</a>
